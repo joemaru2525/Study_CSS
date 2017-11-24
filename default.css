@@ -1,8 +1,15 @@
 /*
-cursor
+background
 */
 
-.help { cursor: help; }
-.dragme { cursor: move; }
-.clickme { cursor: pointer; }
-.smile { cursor: url('smile.png'), auto; }
+body {
+/*   background-color: silver;
+background-image: url('bg.png');
+background-repeat: no-repeat;
+background-repeat: repeat-x;
+background-position: 10px 10px;
+background-position: top center;
+background-attachment: scroll;
+background-attachment: fixed; */
+  background: url('bg.png') no-repeat fixed;
+}
