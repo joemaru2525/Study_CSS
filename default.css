@@ -1,11 +1,17 @@
 /*
-line-height
-vertical-align
+float
+clear
 */
 
-p {
-  border: 1px solid #ddd;
-  font-size: 18px;
-  /*line-height: 24px;*/
-  line-height: 1.5;
+h1, h2, p, img {
+  border:1px solid #ddd;
+}
+
+img {
+  float: right;
+  width: 100px;
+}
+
+h2 {
+  clear: right;
 }
